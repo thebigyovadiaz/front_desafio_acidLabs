@@ -1,0 +1,7 @@
+export const MAPA_INICIAL = 'MAPA_INICIAL'
+export const GUARDAR_INFO = 'GUARDAR_INFO';
+export const MOSTRAR_ERROR = 'MOSTRAR_ERROR';
+export const GUARDAR_PAIS = 'GUARDAR_PAIS';
+export const MOSTRAR_MODAL = 'MOSTRAR_MODAL';
+export const MOSTRAR_INFO = 'MOSTRAR_INFO';
+export const OPEN_MODAL = 'OPEN_MODAL';
