@@ -72,7 +72,7 @@ class MapContainer extends Component {
   }
 
   onSubmitLatLng = (latlng) => {
-    axios.post('https://desolate-garden-37985.herokuapp.com/api/search', latlng, {
+    axios.post('https://desafio-acidlabs-backend.herokuapp.com/api/search', latlng, {
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*'
