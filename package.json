@@ -2,10 +2,13 @@
   "name": "front-desafio-acidlabs",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.9.0",
+    "node": "10.15.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.0.0-rc.0",
     "axios": "^0.19.0",
-    "focus-trap-react": "^6.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

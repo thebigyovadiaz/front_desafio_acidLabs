@@ -1,0 +1,11 @@
+build:
+  docker:
+    web: Dockerfile
+  config:
+    NODE_ENV: development
+release:
+  command:
+    - ./deployment-tasks.sh
+  image: web
+run:
+  web: bundle exec puma -C config/puma.rb

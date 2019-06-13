@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  myreactapp:
+    container_name: myreactapp
+    restart: always
+    build: .
+    ports:
+      - $PORT
+    volumes:
+      - ./myapp:/opt/myreactapp
