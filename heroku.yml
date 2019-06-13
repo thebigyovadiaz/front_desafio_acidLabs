@@ -5,7 +5,5 @@ build:
     NODE_ENV: development
 release:
   image: web
-  command:
-    - ./deployment-tasks.sh
 run:
   web: bundle exec puma -C config/puma.rb
