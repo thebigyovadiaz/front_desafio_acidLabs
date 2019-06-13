@@ -3,5 +3,3 @@ build:
     web: Dockerfile.web
   config:
     NODE_ENV: development
-run:
-  web: bundle exec puma -C config/puma.rb
