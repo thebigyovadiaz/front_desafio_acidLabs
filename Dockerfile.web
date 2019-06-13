@@ -10,5 +10,5 @@ RUN yarn build
 FROM node:10.15.0-alpine
 RUN yarn global add serve
 COPY --from=builder /usr/src/app/build .
-EXPOSE 80
-CMD serve -p 80 -s .
+EXPOSE $PORT
+CMD serve -p $PORT -s .
