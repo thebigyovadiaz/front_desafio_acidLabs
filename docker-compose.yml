@@ -6,6 +6,6 @@ services:
     restart: always
     build: .
     ports:
-      - $PORT
+      - "8080:80"
     volumes:
       - ./myapp:/opt/myreactapp
